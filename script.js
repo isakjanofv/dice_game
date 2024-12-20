@@ -49,7 +49,7 @@ var randomImg2 = Math.floor(Math.random() * arrayImgPlayer2.length + 1);
 
 if(randomImg1 == randomImg2){
     var dices = document.querySelector("h1");
-    dices.innerHTML = "draw Game!";
+    dices.innerHTML = "draw !";
     arrayImgPlayer1[randomImg1].src = "images/dice" + randomImg1 + ".png";
     arrayImgPlayer2[randomImg2].src = "images/dice" + randomImg2 + ".png";
 }else if(randomImg1 > randomImg2){
